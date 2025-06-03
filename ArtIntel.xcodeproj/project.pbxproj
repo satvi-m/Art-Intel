@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EE712FB2DDAB39A005B281D /* SwiftAnthropic in Frameworks */ = {isa = PBXBuildFile; productRef = 2EE712FA2DDAB39A005B281D /* SwiftAnthropic */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2EE712DB2DDAB2DA005B281D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EE712C52DDAB2D8005B281D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EE712CC2DDAB2D8005B281D;
+			remoteInfo = ArtIntel;
+		};
+		2EE712E52DDAB2DA005B281D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EE712C52DDAB2D8005B281D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EE712CC2DDAB2D8005B281D;
+			remoteInfo = ArtIntel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2EE712CD2DDAB2D8005B281D /* ArtIntel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtIntel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EE712DA2DDAB2DA005B281D /* ArtIntelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArtIntelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EE712E42DDAB2DA005B281D /* ArtIntelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArtIntelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		2EE712CF2DDAB2D8005B281D /* ArtIntel */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ArtIntel;
+			sourceTree = "<group>";
+		};
+		2EE712DD2DDAB2DA005B281D /* ArtIntelTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ArtIntelTests;
+			sourceTree = "<group>";
+		};
+		2EE712E72DDAB2DA005B281D /* ArtIntelUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ArtIntelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EE712CA2DDAB2D8005B281D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EE712FB2DDAB39A005B281D /* SwiftAnthropic in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EE712D72DDAB2DA005B281D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EE712E12DDAB2DA005B281D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EE712C42DDAB2D8005B281D = {
+			isa = PBXGroup;
+			children = (
+				2EE712CF2DDAB2D8005B281D /* ArtIntel */,
+				2EE712DD2DDAB2DA005B281D /* ArtIntelTests */,
+				2EE712E72DDAB2DA005B281D /* ArtIntelUITests */,
+				2EE712CE2DDAB2D8005B281D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2EE712CE2DDAB2D8005B281D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EE712CD2DDAB2D8005B281D /* ArtIntel.app */,
+				2EE712DA2DDAB2DA005B281D /* ArtIntelTests.xctest */,
+				2EE712E42DDAB2DA005B281D /* ArtIntelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2EE712CC2DDAB2D8005B281D /* ArtIntel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EE712EE2DDAB2DB005B281D /* Build configuration list for PBXNativeTarget "ArtIntel" */;
+			buildPhases = (
+				2EE712C92DDAB2D8005B281D /* Sources */,
+				2EE712CA2DDAB2D8005B281D /* Frameworks */,
+				2EE712CB2DDAB2D8005B281D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				2EE712CF2DDAB2D8005B281D /* ArtIntel */,
+			);
+			name = ArtIntel;
+			packageProductDependencies = (
+				2EE712FA2DDAB39A005B281D /* SwiftAnthropic */,
+			);
+			productName = ArtIntel;
+			productReference = 2EE712CD2DDAB2D8005B281D /* ArtIntel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2EE712D92DDAB2DA005B281D /* ArtIntelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EE712F12DDAB2DB005B281D /* Build configuration list for PBXNativeTarget "ArtIntelTests" */;
+			buildPhases = (
+				2EE712D62DDAB2DA005B281D /* Sources */,
+				2EE712D72DDAB2DA005B281D /* Frameworks */,
+				2EE712D82DDAB2DA005B281D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EE712DC2DDAB2DA005B281D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2EE712DD2DDAB2DA005B281D /* ArtIntelTests */,
+			);
+			name = ArtIntelTests;
+			packageProductDependencies = (
+			);
+			productName = ArtIntelTests;
+			productReference = 2EE712DA2DDAB2DA005B281D /* ArtIntelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2EE712E32DDAB2DA005B281D /* ArtIntelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EE712F42DDAB2DB005B281D /* Build configuration list for PBXNativeTarget "ArtIntelUITests" */;
+			buildPhases = (
+				2EE712E02DDAB2DA005B281D /* Sources */,
+				2EE712E12DDAB2DA005B281D /* Frameworks */,
+				2EE712E22DDAB2DA005B281D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EE712E62DDAB2DA005B281D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2EE712E72DDAB2DA005B281D /* ArtIntelUITests */,
+			);
+			name = ArtIntelUITests;
+			packageProductDependencies = (
+			);
+			productName = ArtIntelUITests;
+			productReference = 2EE712E42DDAB2DA005B281D /* ArtIntelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2EE712C52DDAB2D8005B281D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					2EE712CC2DDAB2D8005B281D = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					2EE712D92DDAB2DA005B281D = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 2EE712CC2DDAB2D8005B281D;
+					};
+					2EE712E32DDAB2DA005B281D = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 2EE712CC2DDAB2D8005B281D;
+					};
+				};
+			};
+			buildConfigurationList = 2EE712C82DDAB2D8005B281D /* Build configuration list for PBXProject "ArtIntel" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2EE712C42DDAB2D8005B281D;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				2EE712F92DDAB39A005B281D /* XCRemoteSwiftPackageReference "SwiftAnthropic" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2EE712CE2DDAB2D8005B281D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EE712CC2DDAB2D8005B281D /* ArtIntel */,
+				2EE712D92DDAB2DA005B281D /* ArtIntelTests */,
+				2EE712E32DDAB2DA005B281D /* ArtIntelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2EE712CB2DDAB2D8005B281D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EE712D82DDAB2DA005B281D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EE712E22DDAB2DA005B281D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EE712C92DDAB2D8005B281D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EE712D62DDAB2DA005B281D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EE712E02DDAB2DA005B281D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2EE712DC2DDAB2DA005B281D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EE712CC2DDAB2D8005B281D /* ArtIntel */;
+			targetProxy = 2EE712DB2DDAB2DA005B281D /* PBXContainerItemProxy */;
+		};
+		2EE712E62DDAB2DA005B281D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EE712CC2DDAB2D8005B281D /* ArtIntel */;
+			targetProxy = 2EE712E52DDAB2DA005B281D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2EE712EC2DDAB2DB005B281D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2EE712ED2DDAB2DB005B281D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2EE712EF2DDAB2DB005B281D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.artverse.ArtIntel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2EE712F02DDAB2DB005B281D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.artverse.ArtIntel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2EE712F22DDAB2DB005B281D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.artverse.ArtIntelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArtIntel.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ArtIntel";
+			};
+			name = Debug;
+		};
+		2EE712F32DDAB2DB005B281D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.artverse.ArtIntelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArtIntel.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ArtIntel";
+			};
+			name = Release;
+		};
+		2EE712F52DDAB2DB005B281D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.artverse.ArtIntelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ArtIntel;
+			};
+			name = Debug;
+		};
+		2EE712F62DDAB2DB005B281D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.artverse.ArtIntelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ArtIntel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EE712C82DDAB2D8005B281D /* Build configuration list for PBXProject "ArtIntel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EE712EC2DDAB2DB005B281D /* Debug */,
+				2EE712ED2DDAB2DB005B281D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EE712EE2DDAB2DB005B281D /* Build configuration list for PBXNativeTarget "ArtIntel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EE712EF2DDAB2DB005B281D /* Debug */,
+				2EE712F02DDAB2DB005B281D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EE712F12DDAB2DB005B281D /* Build configuration list for PBXNativeTarget "ArtIntelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EE712F22DDAB2DB005B281D /* Debug */,
+				2EE712F32DDAB2DB005B281D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EE712F42DDAB2DB005B281D /* Build configuration list for PBXNativeTarget "ArtIntelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EE712F52DDAB2DB005B281D /* Debug */,
+				2EE712F62DDAB2DB005B281D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2EE712F92DDAB39A005B281D /* XCRemoteSwiftPackageReference "SwiftAnthropic" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jamesrochabrun/SwiftAnthropic";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2EE712FA2DDAB39A005B281D /* SwiftAnthropic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2EE712F92DDAB39A005B281D /* XCRemoteSwiftPackageReference "SwiftAnthropic" */;
+			productName = SwiftAnthropic;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2EE712C52DDAB2D8005B281D /* Project object */;
+}
