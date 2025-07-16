@@ -3,7 +3,7 @@
 //
 //
 //  Created by Satvi Mahesh on 3/19/25.
-//
+//  This is the Content View
 
 import SwiftUI
 import PhotosUI
